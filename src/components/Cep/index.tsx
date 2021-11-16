@@ -38,7 +38,7 @@ const Address = () => {
             </Form.Field>
             <Form.Field inline>
               <Header size="small">Cidade</Header>
-              <Input fluid value={ceps.cidade} />
+              <Input id="city" fluid value={ceps.cidade} />
             </Form.Field>
             <Form.Field inline>
               <Header size="small">Estado</Header>
